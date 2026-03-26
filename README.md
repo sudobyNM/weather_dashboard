@@ -2,7 +2,7 @@
 A responsive React + TypeScript dashboard that displays current and historical weather + air quality using the Open-Meteo API with Geolocation API.
 
 # Tech Stack
-### Frontend: React + TypeScript
+### Frontend: React + TypeScript + Vite
 ### UI library: Tailwind CSS + custom responsive layout
 ### Charts: Recharts (area charts, brush zoom, tooltip, legend)
 ### Icons: lucide-react

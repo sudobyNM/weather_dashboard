@@ -11,10 +11,10 @@ export function Layout({
   return (
     <div className="min-h-screen bg-[#F8F9FA] text-gray-900 font-sans selection:bg-blue-100 selection:text-blue-900">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100/50">
+      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100/50 shadow-md">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 group cursor-pointer">
-            <div className="flex flex-col">
+            <div className="hidden sm:flex flex-col">
               <span className="font-black text-xl tracking-tighter text-gray-800 leading-none">
                 Weather
               </span>
@@ -24,7 +24,7 @@ export function Layout({
             </div>
           </div>
 
-          <div className="flex items-center gap-1.5 bg-gray-300  rounded-2xl border border-gray-200">
+          <div className="flex items-center mx-auto sm:mx-0 gap-1.5 bg-gray-300  rounded-2xl border border-gray-200">
             <button
               onClick={() => onTabChange("current")}
               className={cn(

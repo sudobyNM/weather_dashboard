@@ -229,7 +229,7 @@ export function HistoricalView({
               </table>
               <div className="mt-6 p-4 bg-gray-50 rounded-2xl">
                 <p className="text-[11px] text-gray-400 italic leading-relaxed">
-                  Displaying the most recent 7 days.
+                  *Displaying the most recent 7 days.
                 </p>
               </div>
             </div>
